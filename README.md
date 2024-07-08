@@ -10,9 +10,7 @@ The architecture diagram below illustrate how the honeynet data collection infra
 
 - Make certain that the datetime (timestamp) on the Raspberry Pis, server, and personal machine are synchronized and set to the same timezone
 
-Gammu - v1.41.0
-Raspisms - v3.5.4
-PHP - v7.4.33...note versions higher than this causing issues
+- Gammu v1.41.0, Raspisms v3.5.4 and php v7.4.33. Note php versions above 7 are not compatible with the aforementioned Gammu and Raspisms versions
 
 <!-- Requirements -->
 ## 1. Requirements
