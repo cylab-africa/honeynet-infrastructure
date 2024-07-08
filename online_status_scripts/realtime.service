@@ -1,0 +1,13 @@
+[Unit]
+Description=Real time
+After=network.target
+#StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=pi
+ExecStart=/bin/bash /home/pi/online_status_scripts/time.sh
+[Install]
+WantedBy=multi-user.target
