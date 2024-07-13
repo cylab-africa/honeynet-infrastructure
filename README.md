@@ -1,4 +1,4 @@
-# HONEYNET INFRASTRUCTURE SET UP
+# SMS PHISHING HONEYNET INFRASTRUCTURE SET UP
 
 ## Architecture
 The architecture diagram below illustrate how the honeynet data collection infrastructure is set up
